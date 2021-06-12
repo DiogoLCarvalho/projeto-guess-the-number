@@ -3,17 +3,17 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 220);
+    background-color: #f5f5dc;
 }
 
 main{
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px 20px;
     padding: 15px;
     width: 500px;
     margin: auto; 
     margin-top: 200px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
+    box-shadow: 3px 3px 5px #0000007a;
 }
 main > h1{
     text-align: center;
@@ -22,17 +22,25 @@ main > p{
     text-align: justify;
 }
 .envioPalpite{
-    background: rgb(255, 187, 179);
+    background: #2c2c34;
     border: none;
     border-radius: 12px;
     margin-left: 15px;
     padding: 13px;
     font-size: 16px;
+    color: #ffffff;
 }
 .envioPalpite:hover{
-    background: rgb(235, 124, 112);
+    background: #494850;
 }
 .lastResult {
-    color: white;
+    color: #ffffff;
     padding: 3px;
+}
+.novoJogo{
+    display: none;
+    margin: auto;
+}
+.ultimoResultado{
+    text-align: center;
 }
