@@ -4,24 +4,31 @@ html {
 
 body {
     background-color: #f5f5dc;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
 }
 
-main{
+main {
     background-color: #ffffff;
     border-radius: 10px 20px;
     padding: 15px;
-    width: 500px;
-    margin: auto; 
-    margin-top: 200px;
+    width: 30vw;
+    margin: auto;
     box-shadow: 3px 3px 5px #0000007a;
 }
-main > h1{
+
+main>h1 {
     text-align: center;
 }
-main > p{
+
+main>p {
     text-align: justify;
 }
-.envioPalpite{
+
+.envioPalpite {
     background: #2c2c34;
     border: none;
     border-radius: 12px;
@@ -30,17 +37,27 @@ main > p{
     font-size: 16px;
     color: #ffffff;
 }
-.envioPalpite:hover{
+
+.envioPalpite:hover {
     background: #494850;
 }
+
 .lastResult {
     color: #ffffff;
     padding: 3px;
 }
-.novoJogo{
+
+.novoJogo {
     display: none;
     margin: auto;
 }
-.ultimoResultado{
+
+.ultimoResultado {
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    main {
+        width: 80vw;
+    }
 }
